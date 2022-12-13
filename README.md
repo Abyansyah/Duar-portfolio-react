@@ -14,6 +14,13 @@ docker-compose up
 ```
 docker-compose -f docker-compose.prod.yml up
 ```
+
+## Run
+
+```
+docker-compose start
+```
+
 ## Link
 
 [Link Website](https://portfolio-react-521p.vercel.app/) 
