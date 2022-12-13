@@ -1,4 +1,4 @@
-# Create React App + Docker Compose
+# Duar React App
 
 A project that runs a create-react-app app via containers, using Docker Compose.
 
