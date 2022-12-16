@@ -6,7 +6,7 @@ import { IoBackspaceOutline, } from "react-icons/io5"
 function kal(props){
 
     return(
-        <div className = 'bungkus'>
+        <div className = 'bungkus' >
             <button value = {'backspace'} onClick = {(e) => props.calcula(e.target.value)} ><IoBackspaceOutline/></button>
             <button value = {'C'} onClick = {(e) => props.calcula(e.target.value)}> C </button>
             <button value = {'%'} onClick = {(e) => props.calcula(e.target.value)}> % </button>

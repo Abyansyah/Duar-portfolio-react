@@ -146,7 +146,7 @@ function Kalkulator(){
         }
     
     return(
-        <section className = 'kalkulator'>
+        <section className = 'kalkulator ' >
             <Display
                 hasil = {hasilPen} 
                 nomer1 = {calculo.firstNum}
