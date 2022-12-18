@@ -8,7 +8,6 @@ function Cal() {
   return (
     <div>
       <Navbar />
-      <div className={darkMode ? 'dark-mode' : 'light-mode'}>
         <main className="container-page">
           <Kalkulator />
         </main>
@@ -23,7 +22,6 @@ function Cal() {
           <span style={{ color: darkMode ? '#c96dfd' : 'grey' }}>☽</span>
         </div>
       </div>
-    </div>
   );
 }
 
