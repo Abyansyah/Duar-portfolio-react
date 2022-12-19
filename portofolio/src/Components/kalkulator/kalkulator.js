@@ -10,9 +10,7 @@ function Cal() {
       <Navbar />
         <main className="container-page">
           <Kalkulator className={darkMode ? 'dark-mode' : 'light-mode'}/>
-          <main classname="kalkulator">
-      
-          </main>
+          <main classname="kalkulator"></main>
         </main>
         <div className="container-check">
           <span style={{ color: darkMode ? 'grey' : 'yellow' }}>☀︎</span>

@@ -4,7 +4,7 @@ import '../scss/main.css'
 import Display from '../display/display'
 import Button from '../button/button'
 
-function Kalkulator(){
+function Kalkulator(props){
        
         const [nomerDisplay1, setNomerDisplay1] = useState('')
         const [nomerDisplay2, setNomerDisplay2] = useState('')
@@ -146,7 +146,7 @@ function Kalkulator(){
         }
     
     return(
-        <section className = 'kalkulator'>
+        <section className = {'kalkulator ' + props.className}>
             <Display
                 hasil = {hasilPen} 
                 nomer1 = {calculo.firstNum}
