@@ -1,13 +1,9 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
 
 .container-page {
   height: 100vh;
-  width: 100vw;
   color: rgb(239, 239, 239);
+  background-color: #1a1919;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -47,9 +43,9 @@
 }
 
 .kalkulator {
+  margin-top: 100px;
   background-color: rgb(37, 37, 37);
   width: 80%;
-  height: 80%;
   border-radius: 10px;
   box-shadow: 2px 2px 10px 10px rgba(0, 0, 0, 0.171);
   display: flex;
@@ -111,13 +107,15 @@
 }
 
 .container-check {
+  margin-top: -5px;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #1a1919;
 }
 
 .dark-mode {
-  background-color: #1a1919;
+  background-color: #1c1c1c;
   color: #999;
   transition: background-color 0.25s ease-in-out;
 }
