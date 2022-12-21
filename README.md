@@ -26,7 +26,12 @@ docker-compose start
 
 ## Calculator
 
-![cal](https://user-images.githubusercontent.com/80156805/207474579-d2e50aae-680d-4774-9c00-7f79fef7510d.PNG)
+DarkMode
+![darkmode](https://user-images.githubusercontent.com/80156805/208827814-629d77ad-712a-40e1-bd9b-9a5390572a22.png)
+
+LightMode
+![lightmode](https://user-images.githubusercontent.com/80156805/208827842-003665d1-7c14-4fae-8b7c-00b5d1d1db25.png)
+
 
 ## Link
 
